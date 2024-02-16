@@ -1,11 +1,13 @@
-import React from "react";
+import GameContainer from "./GameContainer";
 import Sidebar from "./Sidebar";
 
 const Body = () => {
   return (
     <div className="flex">
       <Sidebar />
-      <div>body</div>
+      <div className="ml-1 p-5">
+        <GameContainer />
+      </div>
     </div>
   );
 };

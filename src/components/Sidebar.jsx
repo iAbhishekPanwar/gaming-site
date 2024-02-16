@@ -1,8 +1,6 @@
-import React from "react";
-
 const Sidebar = () => {
   return (
-    <div className="p-5 shadow-lg  w-40 bg-gray-200 fixed">
+    <div className="p-5 shadow-lg  w-1/4 bg-gray-200 ">
       <h1 className="font-bold  pt-5">New Releases</h1>
       <ul>
         <li>Last 30 days</li>

@@ -1,9 +1,8 @@
-import React from "react";
 import { headerLogo, searchLogo } from "../utils/constants";
 
 const Header = () => {
   return (
-    <div className="flex shadow-lg  items-center my-0 bg-gray-200">
+    <div className="flex shadow-lg  items-center rounded-lg my-0 bg-gray-200">
       <h1>
         <img
           className="h-16 w-16 w-18 mx-5 "
