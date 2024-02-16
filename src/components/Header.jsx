@@ -1,4 +1,5 @@
 import React from "react";
+import { headerLogo, searchLogo } from "../utils/constants";
 
 const Header = () => {
   return (
@@ -6,8 +7,8 @@ const Header = () => {
       <h1>
         <img
           className="h-16 w-16 w-18 mx-5 "
-          src="https://upload.wikimedia.org/wikipedia/commons/6/69/The-punisher-logo-png-transparent.png"
-          alt=""
+          src={headerLogo}
+          alt="headerLogo"
         />
       </h1>
       <div className="mx-32">
@@ -17,11 +18,7 @@ const Header = () => {
           placeholder="Search 512,835 Games"
         />
         <button>
-          <img
-            className="h-6 w-6 "
-            src="https://upload.wikimedia.org/wikipedia/commons/3/36/Search_Icon.png?20200524051850"
-            alt="searchLogo"
-          />
+          <img className="h-6 w-6 " src={searchLogo} alt="searchLogo" />
         </button>
       </div>
     </div>
